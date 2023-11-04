@@ -2,15 +2,9 @@
 
 ![Penjaga Hati Cover](maxresdefault.jpg)
 
-Deskripsi lagu "Penjaga Hati" dan informasi terkait.
-
-**Artis**: Nama Artis
-**Genre**: Genre Musik
-**Tahun Rilis**: Tahun Rilis
-
 ## Deskripsi Lagu
 
-"Penjaga Hati" adalah sebuah lagu yang ditulis oleh [Nama Penyanyi atau Penulis Lagu] dan dirilis pada tahun [Tahun Rilis]. Lagu ini telah menjadi salah satu lagu favorit di kalangan penggemar musik [Nama Artis]. Lagu ini menciptakan perpaduan antara melodi yang menawan dan lirik yang mendalam.
+"Penjaga Hati" adalah sebuah lagu yang ditulis oleh [Nadhif Basamalah](https://id.wikipedia.org/wiki/Nadhif_Basalamah) dan dirilis pada tahun 2023. Lagu ini telah menjadi salah satu lagu favorit di kalangan penggemar musik [Nadhif Basamalah](https://id.wikipedia.org/wiki/Nadhif_Basalamah). Lagu ini menciptakan perpaduan antara melodi yang menawan dan lirik yang mendalam.
 
 ## Lirik Lagu
 
