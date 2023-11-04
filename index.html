@@ -3,6 +3,7 @@
 <head>
     <title>Musik kesukaanmu</title>
     <style>
+        /* Ini adalah komentar CSS untuk style di atas */
         body {
             margin: 0;
             padding: 0;
@@ -10,17 +11,20 @@
             background: url("love.gif") no-repeat center center fixed;
             background-size: cover;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
         }
 
+        /* Ini adalah komentar CSS untuk style elemen lirik */
         #lyrics-container {
-            position: relative;
             width: 85%;
             text-align: center;
+            margin-top: 20px; /* Tambahkan jarak di atas elemen lirik */
         }
 
+        /* Ini adalah komentar CSS untuk style elemen lirik */
         #lyrics {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: white;
@@ -30,6 +34,7 @@
             white-space: nowrap;
         }
 
+        /* Ini adalah komentar CSS untuk style animasi lirik */
         @keyframes moveText {
             0% {
                 transform: translateY(0);
@@ -41,20 +46,24 @@
     </style>
 </head>
 <body>
-    <h1 style="color: white; text-align: center;">Nadhif Basalamah - Penjaga hati</h1>
-    <audio id="myAudio" controls style="display: block; margin: 0 auto;">
-        <source src="nadhif basalamah - penjaga hati.mp3" type="audio/mpeg">
-        Maaf, browser Anda tidak mendukung pemutar musik ini.
-    </audio>
+    <!-- Ini adalah komentar HTML untuk judul -->
+    <h1 style="color: white; text-align: center; margin-bottom: 20px;">Nadhif Basalamah - Penjaga hati</h1>
+    <div id="audio-container">
+        <audio id="myAudio" controls>
+            <source src="nadhif basalamah - penjaga hati.mp3" type="audio/mpeg">
+            Maaf, browser Anda tidak mendukung pemutar musik ini.
+        </audio>
+    </div>
     <div id="lyrics-container">
+        <!-- Ini adalah komentar HTML untuk elemen lirik -->
         <div id="lyrics">Mari Bernyanyi Bersama</div>
     </div>
     <script>
+        /* Ini adalah komentar JavaScript untuk skrip JavaScript */
         var audio = document.getElementById("myAudio");
         var lyricsContainer = document.getElementById("lyrics-container");
         var lyricsText = document.getElementById("lyrics");
 
-       
         var lyrics = [
             { time: 33, text: "tak sadar ku temukan" },
             { time: 37, text: "temukan wanita rupawan yang sadarkan" },
