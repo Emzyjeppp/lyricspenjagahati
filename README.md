@@ -1,6 +1,6 @@
 # Lagu "Penjaga Hati"
 
-![Penjaga Hati Cover](url_gambar_cover.jpg)
+![Penjaga Hati Cover](maxresdefault.jpg)
 
 Deskripsi lagu "Penjaga Hati" dan informasi terkait.
 
@@ -15,36 +15,39 @@ Deskripsi lagu "Penjaga Hati" dan informasi terkait.
 ## Lirik Lagu
 
 Di bawah ini adalah potongan lirik dari lagu "Penjaga Hati":
-tak sadar ku temukan
-temukan wanita rupawan
-yang sadarkan
-dia seorang
-tiada lain tiada bukan
-hanya dia
-Dia buatku nyaman
-Dalam hangat pelukan
-Dia perasa
-Yang mengerti yang kurasa
-Hanya dia
-kan ku arungi tujuh laut samudra
-kan ku daki pegunungan himalaya
-apapun kan ku lakukan tuk dirimu sayang
-oh penjaga hatiku
-kau dan aku sempurna
-Semoga ada cara tuk terus bersama
-Selalu ku tunggu
-Tak mau berlalu
-Kau dan aku
-kan ku arungi tujuh laut samudra
-kan ku daki pegunungan himalaya
-apapun kan ku lakukan tuk dirimu sayang
-oh penjaga hatiku
-Interlude
-Karna bersamamu semua terasa indah
-Gundah gulana hatiku pun hancur sirna
-janji ku tak kan ku lepas wahai kau bidadariku dari surga
-tuk selamanya
-tuk selamanya"
+
+*"*tak sadar ku temukan*  
+**temukan wanita rupawan**  
+*yang sadarkan*  
+*dia seorang*  
+*tiada lain tiada bukan*  
+*hanya dia*  
+*Dia buatku nyaman*  
+*Dalam hangat pelukan*  
+*Dia perasa*  
+*Yang mengerti yang kurasa*  
+*Hanya dia*  
+*kan ku arungi tujuh laut samudra*  
+*kan ku daki pegunungan himalaya*  
+*apapun kan ku lakukan tuk dirimu sayang*  
+*oh penjaga hatiku*  
+*kau dan aku sempurna*  
+*Semoga ada cara tuk terus bersama*  
+*Selalu ku tunggu*  
+*Tak mau berlalu*  
+*Kau dan aku*  
+*kan ku arungi tujuh laut samudra*  
+*kan ku daki pegunungan himalaya*  
+*apapun kan ku lakukan tuk dirimu sayang*  
+*oh penjaga hatiku*  
+
+**Interlude**
+
+Karna bersamamu semua terasa indah  
+Gundah gulana hatiku pun hancur sirna  
+janji ku tak kan ku lepas wahai kau bidadariku dari surga  
+tuk selamanya  
+tuk selamanya*"
 
 
 ## Bagikan Lagu Ini
