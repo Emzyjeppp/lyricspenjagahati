@@ -51,7 +51,7 @@ tuk selamanya"
 
 Jika Anda menyukai lagu "Penjaga Hati", Anda dapat mendengarkan lagu ini di platform musik favorit Anda:
 
-- [Spotify](https://open.spotify.com/track/7F4tV8SiUy6itZTdAzdafO)
-- [Apple Music](https://music.apple.com/id/song/penjaga-hati/1693108606)
-- [YouTube](https://www.youtube.com/watch?v=jia3fhBQ8qI)
+[![Spotify](https://img.shields.io/badge/Spotify-1ED760?style=for-the-badge&logo=spotify&logoColor=white)](https://open.spotify.com/track/7F4tV8SiUy6itZTdAzdafO)
+[![Apple Music](https://img.shields.io/badge/Apple_Music-000000?style=for-the-badge&logo=apple-music&logoColor=white)](https://music.apple.com/id/song/penjaga-hati/1693108606)
+[![YouTube](https://img.shields.io/badge/YouTube_Music-FF0000?style=for-the-badge&logo=youtube-music&logoColor=white)](https://www.youtube.com/watch?v=jia3fhBQ8qI)
 
