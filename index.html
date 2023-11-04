@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Musik kesukaanmu</title>
+    <title>First Inpression, bin.</title>
     <style>
-        /* Ini adalah komentar CSS untuk style di atas */
+        /* CSS untuk tampilan halaman */
         body {
             margin: 0;
             padding: 0;
@@ -16,15 +16,28 @@
             align-items: center;
             height: 100vh;
         }
+        /* CSS untuk gambar yang berputar */
+        #rotating-image {
+            width: 450px;
+            height: 450px;
+            animation: rotate 4s linear infinite; /* Animasi putar selama 4 detik dan berulang terus */
+        }
 
-        /* Ini adalah komentar CSS untuk style elemen lirik */
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg); /* Gambar dimulai dari sudut 0 derajat */
+            }
+            to {
+                transform: rotate(360deg); /* Gambar berputar hingga 360 derajat (sudut penuh) */
+            }
+        }
+        /* CSS untuk elemen lirik */
         #lyrics-container {
             width: 85%;
             text-align: center;
-            margin-top: 20px; /* Tambahkan jarak di atas elemen lirik */
+            margin-top: 40px; /* Jarak yang lebih besar dari atas */
         }
 
-        /* Ini adalah komentar CSS untuk style elemen lirik */
         #lyrics {
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: white;
@@ -34,7 +47,6 @@
             white-space: nowrap;
         }
 
-        /* Ini adalah komentar CSS untuk style animasi lirik */
         @keyframes moveText {
             0% {
                 transform: translateY(0);
@@ -43,10 +55,67 @@
                 transform: translateY(-50%);
             }
         }
+
+        /* CSS untuk "person-info" dan "special-message" */
+        #person-info {
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.7); /* Latar belakang putih transparan */
+            padding: 20px;
+            width: 70%; /* Misalnya, lebar 70% dari kontainer */
+            margin: 0 auto;
+            color: black; /* Warna teks */
+        }
+
+        #special-message {
+            text-align: center;
+            background-color: rgba(255, 255,255, 0.7); /* Latar belakang putih transparan */
+            padding: 20px;
+            width: 70%; /* Misalnya, lebar 70% dari kontainer */
+            margin: 0 auto;
+            color: black; /* Warna teks */
+        }
+
+        /* CSS untuk "love-container" */
+        #love-container {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        #love-container h1 {
+        color: black;
+        font-family: "Arial", sans-serif;
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+}
+
+        #love-container img {
+            display: block;
+            margin: 0 auto;
+            max-width: 50%; /* Menampilkan gambar secara penuh */
+            height: auto;
+        }
+
+        
+        #person-info, #special-message {
+            text-align: center;
+            font-family: "Arial", sans-serif;
+            font-size: 16px;
+            margin: 10px 0;
+            line-height: 1.5;
+            color: white;
+        }
+
+        #person-info {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
+        #special-message {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+        }
     </style>
 </head>
 <body>
-    <!-- Ini adalah komentar HTML untuk judul -->
     <h1 style="color: white; text-align: center; margin-bottom: 20px;">Nadhif Basalamah - Penjaga hati</h1>
     <div id="audio-container">
         <audio id="myAudio" controls>
@@ -55,11 +124,21 @@
         </audio>
     </div>
     <div id="lyrics-container">
-        <!-- Ini adalah komentar HTML untuk elemen lirik -->
         <div id="lyrics">Mari Bernyanyi Bersama</div>
     </div>
+    <div id="love-container">
+        <h1 style="color: #FFFFFF; text-align: center; margin-top: 40px; margin-bottom: 20px;">Tentang Lagu Ini</h1>
+        <img id="rotating-image" src="Kaset.png" alt="Gambar Putar">
+        <div id="person-info">
+            <p>Nama: Bintari, A.Md.Kom.</p>
+            <p>Tempat, Tanggal Lahir: Cilacap, 23 Agustus 2002</p>
+        </div>
+        <div id="special-message">
+            <p>Hai bin, kalo aku denger lagu ini, jadi inget tentang kamu WKWKWKKWKWK.<br><br>
+            Semoga Pertemanan Kita Seperti Pada Lagu Ini Yaaaaaaa <3></p>
+        </div>
+        
     <script>
-        /* Ini adalah komentar JavaScript untuk skrip JavaScript */
         var audio = document.getElementById("myAudio");
         var lyricsContainer = document.getElementById("lyrics-container");
         var lyricsText = document.getElementById("lyrics");
@@ -97,7 +176,6 @@
             { time: 230, text: "tuk selamanya" },
             { time: 246 }
         ];
-
         audio.addEventListener("timeupdate", function() {
             for (var i = 0; i < lyrics.length; i++) {
                 if (audio.currentTime > lyrics[i].time) {
